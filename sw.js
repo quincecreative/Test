@@ -4,14 +4,14 @@ self.addEventListener("install", (e) => {
       .open("fox-store")
       .then((cache) =>
         cache.addAll([
-          "/",
-          "/index.html",
-          "/index.js",
-          "/style.css",
-          "/images/fox1.jpg",
-          "/images/fox2.jpg",
-          "/images/fox3.jpg",
-          "/images/fox4.jpg",
+          "/Test/",
+          "/Test/index.html",
+          "/Test/index.js",
+          "/Test/style.css",
+          "/Test/images/fox1.jpg",
+          "/Test/images/fox2.jpg",
+          "/Test/images/fox3.jpg",
+          "/Test/images/fox4.jpg",
         ])
       )
   );
